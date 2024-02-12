@@ -4,8 +4,8 @@ const comprobacion = document.querySelector(".valides");
 
 
 
-setInterval(()=> {verificar.onclick = ()=>{
-    
+
+    verificar.onclick = ()=>{    
     let text = palabra.value
     if(text != ""){
         let reversa = [... text].reverse().join("")
@@ -23,4 +23,8 @@ setInterval(()=> {verificar.onclick = ()=>{
     }else{
         
     }
-}}, 10)
+}
+
+
+
+
