@@ -20,6 +20,7 @@ body {
   border-radius: 16px;
   border: 2px solid gainsboro;
   box-shadow: 4px 4px 5px rgb(124, 124, 124), 15px 18px 6px rgb(134, 134, 134);
+  
 }
 .caja form {
   height: 97%;
@@ -70,14 +71,21 @@ body {
     90deg,
     rgba(107, 107, 106, 1) 1%,
     rgba(163, 165, 172, 1) 85%
-  );
+    );
+    transition: 0.3s transform
 }
 .boton:hover {
   transform: scale(105%);
-  transition: 0.3s all;
+  
 }
 .valides {
   pointer-events: none;
   font-size: 2rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+@keyframes sombras {
+  from{
+    
+  }
+  
 }

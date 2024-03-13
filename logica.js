@@ -5,7 +5,8 @@ const comprobacion = document.querySelector(".valides");
 
 
 
-    verificar.onclick = ()=>{    
+    verificar.onclick = (e)=>{   
+    e.preventDefault() 
     let text = palabra.value
     if(text != ""){
         let reversa = [... text].reverse().join("")
